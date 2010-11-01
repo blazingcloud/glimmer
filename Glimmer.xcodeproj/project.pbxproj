@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1448A39E126D15850050D95F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1448A39D126D15850050D95F /* AVFoundation.framework */; };
+		144B24AB1256A25500577BF8 /* GMAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144B24AA1256A25500577BF8 /* GMAnimationView.m */; };
+		144B28FE125BD27800577BF8 /* GMTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144B28FD125BD27800577BF8 /* GMTouchView.m */; };
+		1480D8FE12664D8600DE372C /* GMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480D8FD12664D8600DE372C /* GMTextView.m */; };
+		1480D9DF12665DA400DE372C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1480D9DE12665DA400DE372C /* CoreText.framework */; };
+		1480DAA21266773900DE372C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1480DAA11266773900DE372C /* MediaPlayer.framework */; };
+		1480DB0E1266821000DE372C /* UIImage-Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480DB0D1266821000DE372C /* UIImage-Alpha.m */; };
+		1480DCC51266CF7500DE372C /* GMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480DCC41266CF7500DE372C /* GMAnimation.m */; };
+		14903C3812551509006450DC /* GMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14903C3612551509006450DC /* GMPageViewController.m */; };
+		14903C3912551509006450DC /* GMPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14903C3712551509006450DC /* GMPageViewController.xib */; };
+		14903CAE12551952006450DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14903CAD12551952006450DC /* QuartzCore.framework */; };
+		14903D6612551B07006450DC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14903D6512551B07006450DC /* OpenGLES.framework */; };
+		14B2F0FB125FC23E00A4552F /* Glimmer-Animation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14B2F0FA125FC23E00A4552F /* Glimmer-Animation.plist */; };
+		14DB97531267B5BE00E95668 /* GMAnimationSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB97521267B5BE00E95668 /* GMAnimationSequencer.m */; };
+		14DB997612681A4500E95668 /* GMTiltNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB997512681A4500E95668 /* GMTiltNotifier.m */; };
+		1D3623260D0F684500981E51 /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GMAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1448A39D126D15850050D95F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		144B24A91256A25500577BF8 /* GMAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnimationView.h; sourceTree = "<group>"; };
+		144B24AA1256A25500577BF8 /* GMAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAnimationView.m; sourceTree = "<group>"; };
+		144B28FC125BD27800577BF8 /* GMTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTouchView.h; sourceTree = "<group>"; };
+		144B28FD125BD27800577BF8 /* GMTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTouchView.m; sourceTree = "<group>"; };
+		1480D8FC12664D8600DE372C /* GMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTextView.h; sourceTree = "<group>"; };
+		1480D8FD12664D8600DE372C /* GMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTextView.m; sourceTree = "<group>"; };
+		1480D9DE12665DA400DE372C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1480DAA11266773900DE372C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1480DB0C1266821000DE372C /* UIImage-Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Alpha.h"; sourceTree = "<group>"; };
+		1480DB0D1266821000DE372C /* UIImage-Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Alpha.m"; sourceTree = "<group>"; };
+		1480DCC31266CF7500DE372C /* GMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnimation.h; sourceTree = "<group>"; };
+		1480DCC41266CF7500DE372C /* GMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAnimation.m; sourceTree = "<group>"; };
+		14903C3512551509006450DC /* GMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPageViewController.h; sourceTree = "<group>"; };
+		14903C3612551509006450DC /* GMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPageViewController.m; sourceTree = "<group>"; };
+		14903C3712551509006450DC /* GMPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GMPageViewController.xib; path = Classes/GMPageViewController.xib; sourceTree = "<group>"; };
+		14903CAD12551952006450DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14903D6512551B07006450DC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		14B2F0FA125FC23E00A4552F /* Glimmer-Animation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Glimmer-Animation.plist"; sourceTree = "<group>"; };
+		14DB97511267B5BE00E95668 /* GMAnimationSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAnimationSequencer.h; sourceTree = "<group>"; };
+		14DB97521267B5BE00E95668 /* GMAnimationSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAnimationSequencer.m; sourceTree = "<group>"; };
+		14DB997412681A4500E95668 /* GMTiltNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTiltNotifier.h; sourceTree = "<group>"; };
+		14DB997512681A4500E95668 /* GMTiltNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTiltNotifier.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Glimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Glimmer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glimmer_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Glimmer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Glimmer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				14903CAE12551952006450DC /* QuartzCore.framework in Frameworks */,
+				14903D6612551B07006450DC /* OpenGLES.framework in Frameworks */,
+				1480D9DF12665DA400DE372C /* CoreText.framework in Frameworks */,
+				1480DAA21266773900DE372C /* MediaPlayer.framework in Frameworks */,
+				1448A39E126D15850050D95F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* GMAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GMAppDelegate.m */,
+				14903C3512551509006450DC /* GMPageViewController.h */,
+				14903C3612551509006450DC /* GMPageViewController.m */,
+				144B28FC125BD27800577BF8 /* GMTouchView.h */,
+				144B28FD125BD27800577BF8 /* GMTouchView.m */,
+				14DB997412681A4500E95668 /* GMTiltNotifier.h */,
+				14DB997512681A4500E95668 /* GMTiltNotifier.m */,
+				1480DCC31266CF7500DE372C /* GMAnimation.h */,
+				1480DCC41266CF7500DE372C /* GMAnimation.m */,
+				14DB97511267B5BE00E95668 /* GMAnimationSequencer.h */,
+				14DB97521267B5BE00E95668 /* GMAnimationSequencer.m */,
+				144B24A91256A25500577BF8 /* GMAnimationView.h */,
+				144B24AA1256A25500577BF8 /* GMAnimationView.m */,
+				1480D8FC12664D8600DE372C /* GMTextView.h */,
+				1480D8FD12664D8600DE372C /* GMTextView.m */,
+				1480DB0C1266821000DE372C /* UIImage-Alpha.h */,
+				1480DB0D1266821000DE372C /* UIImage-Alpha.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Glimmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Glimmer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14903C3712551509006450DC /* GMPageViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Glimmer-Info.plist */,
+				14B2F0FA125FC23E00A4552F /* Glimmer-Animation.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				14903CAD12551952006450DC /* QuartzCore.framework */,
+				14903D6512551B07006450DC /* OpenGLES.framework */,
+				1480D9DE12665DA400DE372C /* CoreText.framework */,
+				1480DAA11266773900DE372C /* MediaPlayer.framework */,
+				1448A39D126D15850050D95F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Glimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Glimmer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glimmer;
+			productName = TeddyBear;
+			productReference = 1D6058910D05DD3D006BFB54 /* Glimmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Blazing Cloud";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Glimmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Glimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				14903C3912551509006450DC /* GMPageViewController.xib in Resources */,
+				14B2F0FB125FC23E00A4552F /* Glimmer-Animation.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GMAppDelegate.m in Sources */,
+				14903C3812551509006450DC /* GMPageViewController.m in Sources */,
+				144B24AB1256A25500577BF8 /* GMAnimationView.m in Sources */,
+				144B28FE125BD27800577BF8 /* GMTouchView.m in Sources */,
+				1480D8FE12664D8600DE372C /* GMTextView.m in Sources */,
+				1480DB0E1266821000DE372C /* UIImage-Alpha.m in Sources */,
+				1480DCC51266CF7500DE372C /* GMAnimation.m in Sources */,
+				14DB97531267B5BE00E95668 /* GMAnimationSequencer.m in Sources */,
+				14DB997612681A4500E95668 /* GMTiltNotifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Glimmer_Prefix.pch;
+				INFOPLIST_FILE = "Glimmer-Info.plist";
+				PRODUCT_NAME = Glimmer;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Glimmer_Prefix.pch;
+				INFOPLIST_FILE = "Glimmer-Info.plist";
+				PRODUCT_NAME = Glimmer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Frederick Sharples (5YJ3AQK5PK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frederick Sharples (5YJ3AQK5PK)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "0A8EFA57-0E70-4A6F-AF93-285BCF404D8B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A8EFA57-0E70-4A6F-AF93-285BCF404D8B";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orange Design, Inc.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CCA61B3-6F0B-4F30-8A1A-E3B92A3C6212";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Glimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Glimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
