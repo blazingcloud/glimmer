@@ -1,0 +1,13 @@
+Glimmer, iOS library
+
+Build simple books and activities for iOS
+
+features
+* play animations from video files
+* tap, tilt and swipe gestures
+* page turn on swipe
+* sound playback with cue triggers
+
+TODO
+* docs, instructions on building sample book
+
