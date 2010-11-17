@@ -53,7 +53,7 @@
 	[UIView setAnimationDuration:1.0];
 	[UIView setAnimationTransition:transition forView:self.view cache:YES];
 	[UIView setAnimationDelegate:self];
-	[UIView setAnimationDidStopSelector:@selector(startPage)];
+	[UIView setAnimationDidStopSelector:@selector(loadPage)];
 	animationView.hidden = YES;
 	[UIView commitAnimations];
 }
