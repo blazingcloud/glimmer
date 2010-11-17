@@ -254,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sarah Allen (T8HTXW2FDF)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -265,6 +266,8 @@
 				GCC_PREFIX_HEADER = Glimmer_Prefix.pch;
 				INFOPLIST_FILE = "Glimmer-Info.plist";
 				PRODUCT_NAME = Glimmer;
+				PROVISIONING_PROFILE = "12996780-03BE-427D-AD1B-4EF0A40E8057";
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -272,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -281,6 +285,7 @@
 				GCC_PREFIX_HEADER = Glimmer_Prefix.pch;
 				INFOPLIST_FILE = "Glimmer-Info.plist";
 				PRODUCT_NAME = Glimmer;
+				SDKROOT = iphoneos4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -289,16 +294,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Frederick Sharples (5YJ3AQK5PK)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Frederick Sharples (5YJ3AQK5PK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sarah Allen (T8HTXW2FDF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sarah Allen (T8HTXW2FDF)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "0A8EFA57-0E70-4A6F-AF93-285BCF404D8B";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A8EFA57-0E70-4A6F-AF93-285BCF404D8B";
-				SDKROOT = iphoneos3.2;
+				PROVISIONING_PROFILE = "12996780-03BE-427D-AD1B-4EF0A40E8057";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12996780-03BE-427D-AD1B-4EF0A40E8057";
+				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -307,15 +312,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orange Design, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CCA61B3-6F0B-4F30-8A1A-E3B92A3C6212";
-				SDKROOT = iphoneos3.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;

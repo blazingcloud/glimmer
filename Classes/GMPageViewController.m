@@ -10,6 +10,8 @@
 
 @implementation GMPageViewController
 
+@synthesize currentPage;
+
 - (void)handleTap {
 	[animationView tap:touchView.lastObjectTapped];
 }
@@ -66,7 +68,7 @@
 	}
 }
 
-- (void)startPage {
+- (void)loadPage {
 	NSDictionary *pageConfig = [animationConfig objectAtIndex:currentPage];
 	NSString *page = [pageConfig objectForKey:@"name"];
 
@@ -82,13 +84,8 @@
 	nextPageView.image = nil;
 }
 
-#pragma mark -
-#pragma mark View lifecycle
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-	
-	tiltNotifier = [[GMTiltNotifier alloc] init];
+- (void) buildUp {
+    tiltNotifier = [[GMTiltNotifier alloc] init];
 	textView.fontName = @"AmericanTypewriter-Bold";
 	textView.fontSize = 24;
 	textView.hiliteColor = [UIColor redColor];
@@ -96,19 +93,18 @@
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"Glimmer-Animation" ofType:@"plist"];
 	animationConfig = [[NSArray alloc] initWithContentsOfFile:path];
 	
-	currentPage = 0;
-	[self startPage];
+	[self loadPage];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(handleTap) 
 												 name:GMTouchViewTapNotification
 											   object:nil];
-	 
+    
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(turnPage:) 
 												 name:GMTouchViewSwipeLeftNotification
 											   object:nil];
-
+    
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(turnPage:) 
 												 name:GMTouchViewSwipeRightNotification
@@ -118,26 +114,28 @@
 											 selector:@selector(handleTilt:) 
 												 name:GMTouchViewTiltLevelNotification
 											   object:nil];
-
+    
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(handleTilt:) 
 												 name:GMTouchViewTiltLeftNotification
 											   object:nil];
-
+    
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(handleTilt:) 
 												 name:GMTouchViewTiltRightNotification
 											   object:nil];
 }
 
-- (void)viewDidUnload {
-    [super viewDidUnload];
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
+- (void) tearDown {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 	[animationConfig release];
 	animationConfig = nil;
 	[tiltNotifier release];
-	tiltNotifier = nil;
+	tiltNotifier = nil;    
 }
+
+#pragma mark -
+#pragma mark View lifecycle
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;

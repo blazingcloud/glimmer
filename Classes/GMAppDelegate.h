@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+#import "GMPageViewController.h"
 
 @interface GMAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	IBOutlet UIViewController *pageViewController;
+	IBOutlet GMPageViewController *pageViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

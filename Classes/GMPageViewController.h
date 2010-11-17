@@ -23,4 +23,9 @@
 	int currentPage;
 }
 
+@property(readwrite) int currentPage;
+
+- (void) buildUp;
+- (void) tearDown;
+
 @end
